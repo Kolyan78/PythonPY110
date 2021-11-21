@@ -13,10 +13,16 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: map 1.py
+  visible: true
+  learner_created: true
+- name: map 2.py
+  visible: true
+  learner_created: true
 status: Failed
 feedback:
   message: Incorrect
-  time: Sun, 21 Nov 2021 13:01:22 UTC
+  time: Sun, 21 Nov 2021 13:39:55 UTC
   actual: |
     № 1 => а
     № 2 => б
