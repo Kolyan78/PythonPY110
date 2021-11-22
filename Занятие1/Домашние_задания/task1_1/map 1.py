@@ -9,5 +9,6 @@
 def conv_(list2):
     return (list2.upper(), list2.lower()) # for x in list2
 
+
 list_ = ['U', 'f', 'a', 'b', 'i', 'o', 'E', 'a', 'A'] #список дополнил элементами, чтобы присутствовали повторяющиеся
 print(list(map(conv_, set(map(str.upper, list_)))))
