@@ -1,8 +1,10 @@
 OUTPUT_FILE = "output.txt"
 
 
-def task():
-    ...  # TODO записать лесенку в файл
+def task(steps=11):
+    with open(OUTPUT_FILE, "w") as file:
+        for i in range(1, steps):
+            file.write(f'{"*" * i}\n'.rjust(steps))
 
 
 if __name__ == "__main__":

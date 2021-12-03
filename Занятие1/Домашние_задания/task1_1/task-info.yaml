@@ -19,10 +19,34 @@ files:
 - name: map 2.py
   visible: true
   learner_created: true
+- name: map 3.py
+  visible: true
+  learner_created: true
+- name: lambda 1.py
+  visible: true
+  learner_created: true
+- name: lambda 2.py
+  visible: true
+  learner_created: true
+- name: lambda 3.py
+  visible: true
+  learner_created: true
+- name: lambda 4.py
+  visible: true
+  learner_created: true
+- name: lambda 5.py
+  visible: true
+  learner_created: true
+- name: lambda 6.py
+  visible: true
+  learner_created: true
+- name: lambda 7.py
+  visible: true
+  learner_created: true
 status: Failed
 feedback:
   message: Incorrect
-  time: Sun, 21 Nov 2021 13:39:55 UTC
+  time: Mon, 22 Nov 2021 08:20:05 UTC
   actual: |
     № 1 => а
     № 2 => б

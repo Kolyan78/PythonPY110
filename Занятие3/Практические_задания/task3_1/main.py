@@ -33,5 +33,6 @@ if __name__ == "__main__":
 
     to_pickle_file(dict_pickle, "output")  # записываем объект в файл
     obj_from_file = from_pickle_file("output.pickle")  # считываем объект из файла
-
+    # print(obj_from_file)
+    # print(type(obj_from_file))
     obj_from_file["func"]()  # вызываем функцию из словаря

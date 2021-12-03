@@ -2,9 +2,9 @@ from itertools import count
 
 
 def last_gen():
-    for current_number in count(1):
+    for current_number in count(1, 0.125):
         yield current_number
-        if current_number == 5:
+        if current_number > 10:
             return
 
 

@@ -11,8 +11,8 @@ files:
       length: 97
       offset: 112
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: nonlocal count
   text: |
     def counter(fn):
@@ -48,6 +48,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Fri, 26 Nov 2021 17:07:45 UTC
 record: -1
 post_submission_on_open: true
